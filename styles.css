@@ -1,0 +1,42 @@
+
+* {
+    transition: all 0.5s ease-in-out;
+}
+body{
+    font-size: 24px;
+}
+.card-title{
+    font-size: 16px;
+}
+
+#background-image{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+  
+  footer > p {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .zoom {
+    transition: transform .5s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2); 
+  }
