@@ -60,7 +60,7 @@ function App () {
             </div>
         </div>
     </div>
-        <footer id="footer">
+        <footer id="footer" >
         <p>Copyrights <i class="fa fa-copyright"></i> Dramos02 <a href="https://github.com/Dramos02" target="_blank" id="profile-link" class="githubicon">
         <i class="fa fa-github zoom"></i></a></p>
         </footer>   
@@ -107,5 +107,3 @@ function Pad({ clip, volume, setRecording }){
 }
 
 ReactDOM.render(<App/>, document.getElementById('drum')) 
-
-//Copyrights © https://github.com/Dramos02
