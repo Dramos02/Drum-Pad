@@ -107,3 +107,4 @@ function Pad({ clip, volume, setRecording }){
 }
 
 ReactDOM.render(<App/>, document.getElementById('drum')) 
+/*Copyrights © https://github.com/Dramos02*/
