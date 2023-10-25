@@ -32,7 +32,7 @@ function App () {
     };
 
     return (
-        <div style={{backgroundImage: ("url('./wallpaper.jpg')") , minHeight: "100vh"}} id="background-image">
+        <div style={{backgroundImage: ("url('https://i.imgur.com/KX2JX75.png')") , minHeight: "100vh"}} id="background-image">
         <div className="container pt-2 ">
         <div className="card shadow mb-5 rounded bg-transparent text-center text-dark border border-dark">
              <div className="card-header font-weight-bold font-italic border border-dark ">Drum Pad</div>
